@@ -60,4 +60,14 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
       console.log( `server running http://localhost:${ port }` );
       console.log( `press CTRL+C to stop server` );
   } );
+
+  function isvalidURL(str:string) {
+  var p = new RegExp('^(https?:\\/\\/)?'+ // protocol
+    '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|'+ // domain name
+    '((\\d{1,3}\\.){3}\\d{1,3}))'+ // OR ip (v4) address
+    '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*'+ // port and path
+    '(\\?[;&a-z\\d%_.~+=-]*)?'+ // query string
+    '(\\#[-a-z\\d_]*)?$','i'); // fragment locator
+  return !!p.test(str);
+}
 })();
