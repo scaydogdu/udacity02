@@ -1,4 +1,4 @@
-Online demo: http://imagefilterstartercode-env.eba-ctmrtkcx.eu-central-1.elasticbeanstalk.com/filteredimage?image_url=https://timedotcom.files.wordpress.com/2019/03/kitten-report.jpg
+Online demo: http://imagefilterstartercode-env.eba-ctmrtkcx.eu-central-1.elasticbeanstalk.com/filteredimage?image_url=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
 
 
 # Udagram Image Filtering Microservice
